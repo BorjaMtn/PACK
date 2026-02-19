@@ -23,7 +23,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className="h-dvh overflow-hidden">
+      <body className="min-h-dvh">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <LocaleStorageSync />
           <ServiceWorkerRegister />

@@ -75,7 +75,7 @@ export function LandingClient() {
   }
 
   return (
-    <main className="mx-auto min-h-dvh w-full max-w-md bg-zinc-950 px-5 pb-10 pt-8 text-zinc-100">
+    <main className="mx-auto min-h-screen w-full max-w-md bg-zinc-950 px-5 pb-10 pt-8 text-zinc-100">
       <section className="rounded-3xl border border-zinc-800 bg-gradient-to-br from-zinc-900 to-zinc-950 p-6 shadow-[0_16px_40px_rgba(0,0,0,0.45)]">
         <div className="flex items-start justify-between gap-3">
           <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">{t.brand}</p>
